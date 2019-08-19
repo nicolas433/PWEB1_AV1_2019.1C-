@@ -39,12 +39,12 @@
 					Atendimento ao Cliente
 				</span>
 
-            <div class="wrap-input100 validate-input bg1">
+            <div class="wrap-input100  bg1">
                 <span class="label-input100">Nome completo *</span>
                 <input class="input100" type="text" placeholder="Digite seu nome completo">
             </div>
 
-            <div class="wrap-input100 validate-input bg1 rs1-wrap-input100">
+            <div class="wrap-input100  bg1 rs1-wrap-input100">
                 <span class="label-input100">Email *</span>
                 <input class="input100" type="text" placeholder="Digite seu e-mail ">
             </div>
@@ -68,8 +68,26 @@
                 </div>
             </div>
 
-            <div class="wrap-input100 validate-input bg0 rs1-alert-validate" data-validate="Please Type Your Message">
-                <span class="label-input100">Mensagem do cliente</span>
+            <div class="wrap-input100 bg1 rs1-wrap-input100">
+                <span class="label-input100">Tipo de cliente *</span><br/>
+                <label class="input100">
+                    <input type="radio"> Novo cliente
+                </label>
+                <label class="input100">
+                    <input type="radio"> Cliente antigo
+                </label>
+            </div>
+
+            <div class="wrap-input100 bg1 rs1-wrap-input100">
+                <span class="label-input100">Deseja receber ligação?</span><br/>
+                <br/>
+                <label class="input100">
+                    <input type="checkbox"> Sim, pode me ligar
+                </label>
+            </div>
+
+            <div class="wrap-input100  bg0 ">
+                <span class="label-input100">Mensagem do cliente *</span>
                 <textarea class="input100" placeholder="Escreva sua mensagem aqui..."></textarea>
             </div>
 
@@ -110,7 +128,6 @@
     })
 </script>
 <!--===============================================================================================-->
-
 
 </body>
 </html>
